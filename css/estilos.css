@@ -76,6 +76,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
@@ -115,6 +116,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 .project-course,
 .project-date,
@@ -153,6 +156,8 @@ h2 {
   height: 70px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
 ol,
@@ -209,6 +214,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer img {
@@ -266,6 +272,7 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social {
@@ -327,7 +334,7 @@ figure {
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
-  flex-wrap: inherit;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1024px){
